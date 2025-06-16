@@ -1,5 +1,8 @@
 import { AppData } from './types';
 import profilePic from './assets/profilePic.png';
+import ETracker from './assets/E-tracker.jpg';
+import devTinderImg from './assets/dev-tinder.jpg';
+import portfolioImg from './assets/portfolio-img.jpg';
 export const appData: AppData = {
     user: {
         name: 'Kartheek',
@@ -46,7 +49,7 @@ export const appData: AppData = {
             title: 'Portfolio Website',
             description:
                 'A personal portfolio website to showcase my skills, projects, and experience. Built using modern frontend technologies and fully responsive across devices.',
-            image: 'src\\assets\\portfolio-img.jpg',
+            image: portfolioImg,
             technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux Toolkit', 'framer-motion'],
             demoLink: 'https://your-portfolio-url.com',
             githubLink: 'https://github.com/username/portfolio',
@@ -55,7 +58,7 @@ export const appData: AppData = {
             id: 2,
             title: 'Dev Tinder (Full-Stack App)',
             description: 'A Tinder-style networking platform for developers with secure JWT authentication and real-time updates.',
-            image: 'src\\assets\\dev-tinder.jpg',
+            image: devTinderImg,
             technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux Toolkit'],
             demoLink: '',
             githubLink: 'https://github.com/karthik9014/devTinder',
@@ -75,7 +78,7 @@ export const appData: AppData = {
             id: 3,
             title: 'Expense Tracker',
             description: 'A simple expense tracking app to monitor income and expenses with persistent data using localStorage.',
-            image: 'src\\assets\\E-tracker.jpg',
+            image: ETracker,
             technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux Toolkit'],
             demoLink: '',
             githubLink: '',
