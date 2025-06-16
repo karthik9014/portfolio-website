@@ -51,8 +51,8 @@ export const appData: AppData = {
                 'A personal portfolio website to showcase my skills, projects, and experience. Built using modern frontend technologies and fully responsive across devices.',
             image: portfolioImg,
             technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux Toolkit', 'framer-motion'],
-            demoLink: 'https://your-portfolio-url.com',
-            githubLink: 'https://github.com/username/portfolio',
+            demoLink: 'https://karthik9014.github.io/portfolio-website/',
+            githubLink: 'https://github.com/karthik9014/portfolio-website',
         },
         {
             id: 2,

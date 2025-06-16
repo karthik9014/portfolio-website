@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import { getThemeStyles } from '../../themes/themeConfig';
 import { motion } from 'framer-motion';
-
+import ResumeFile from '../../assets/Kartheek_Resume_.pdf';
 const CTA = () => {
   const currentTheme = useSelector((state: RootState) => state.theme.currentTheme);
   const themeStyles = getThemeStyles(currentTheme);
@@ -10,7 +10,7 @@ const CTA = () => {
   return (
     <div className="flex flex-wrap justify-center gap-4 mt-4">
       <motion.a
-        href="src\assets\Kartheek_Resume_.pdf"
+        href={ResumeFile}
         download
         className={`px-6 py-3 rounded-md font-medium ${themeStyles.buttonStyle}`}
         whileHover={{ scale: 1.05 }}
