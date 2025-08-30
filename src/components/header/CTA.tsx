@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import { getThemeStyles } from '../../themes/themeConfig';
 import { motion } from 'framer-motion';
-import ResumeFile from '../../assets/Kartheek_Resume_.pdf';
+import ResumeFile from '../../assets/VenkataKartheek_CV.pdf';
 const CTA = () => {
   const currentTheme = useSelector((state: RootState) => state.theme.currentTheme);
   const themeStyles = getThemeStyles(currentTheme);
